@@ -1,1 +1,61 @@
-.ball,main{width:80vw;max-width:600px}.ball,.shadow,main{max-width:600px}.ball,.ball:before,.shadow{border-radius:50%}main{margin:0 auto}.ball{height:80vw;max-height:600px;position:relative;z-index:1}.ball:hover{cursor:pointer}.ball:before{content:"";position:absolute;top:1%;left:5%;width:90%;height:90%;background:-webkit-radial-gradient(50% 0,circle,#fff,rgba(255,255,255,0) 58%);background:radial-gradient(circle at 50% 0,#fff,rgba(255,255,255,0) 58%);-webkit-filter:blur(5px);z-index:2}.shadow{margin-top:-15px;width:80vw;height:calc(80vw*.07);max-height:20px;-webkit-filter:blur(10px);background:#000;z-index:-100}#ball1{background:url(../assets/img/02.jpg) no-repeat;background-size:cover}#ball2{background:url(../assets/img/01.jpg) no-repeat;background-size:cover}#ball3{background:url(../assets/img/kurahk_flying2.jpg) no-repeat;background-size:cover}#ball2,#ball3{display:none}
+.ball,main{
+    width:80vw;
+    max-width:600px
+}
+.ball,.shadow,main{
+    max-width:600px
+}
+.ball,.ball:before,.shadow{
+    border-radius:50%
+}
+main{
+    margin:0 auto
+}
+.ball{
+    height:80vw;
+    max-height:600px;
+    position:relative;
+    z-index:1
+}
+.ball:hover{
+    cursor:pointer
+}
+.ball:before{
+    content:"";
+    position:absolute;
+    top:1%;
+    left:5%;
+    width:90%;
+    height:90%;
+    background:radial-gradient(circle at 50% 0,#fff,rgba(255,255,255,0) 58%);
+    -webkit-filter:blur(5px);
+    z-index:2
+}
+.shadow{
+    margin-top:-15px;
+    width:80vw;
+    height:calc(80vw*.07);
+    max-height:20px;
+    -webkit-filter:blur(10px);
+    background:#000;
+    z-index:-100
+}
+#ball1{
+    background:url(../assets/img/1.jpg) no-repeat;
+    background-size:cover
+}
+#ball2{
+    background:url(../assets/img/2.jpg) no-repeat;
+    background-size:cover
+}
+#ball3{
+    background:url(../assets/img/3.jpg) no-repeat;
+    background-size:cover
+}
+#ball4{
+    background:url(../assets/img/kurahk_flying2.jpg) no-repeat;
+    background-size:cover
+}
+#ball2,#ball3,#ball4{
+    display:none
+}
